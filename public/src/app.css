@@ -1,0 +1,36 @@
+
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.table-refresh{
+  min-width: 400px;
+  max-width: 1000px;
+  font-size: 14px;
+
+}
+
+.table-refresh__table{
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #pink;
+}
+
+.table-refresh__table thead tr{
+
+  background: pink ;
+  color: black;
+}
+
+.table-refresh__table th,
+.table-refresh__table td{
+    text-align: left;
+    padding: 9px 18px;
+    font-weight: normal;
+  }
+
+ 
